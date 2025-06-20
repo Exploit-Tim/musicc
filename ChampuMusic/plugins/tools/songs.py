@@ -311,7 +311,7 @@ async def song_download_cb(client, CallbackQuery, _):
 
     title = (x["title"]).title()
 
-    title = re.sub("\W+", " ", title)
+    title = re.sub(r"\W+", " ", title)
 
     thumb_image_path = await CallbackQuery.message.download()
 
