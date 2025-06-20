@@ -8,17 +8,17 @@ load_dotenv()
 
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "27883552"))
-API_HASH = getenv("API_HASH", "03e8a15853d2aa580c52aea314d26711")
+API_ID = int(getenv("API_ID", "26544005"))
+API_HASH = getenv("API_HASH", "66f6221e5ce9109827b50eaf3d105025")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7381889815:AAGj4XbtsjCfeUfunCcE8q4mtgjVtHvYhaI")
+BOT_TOKEN = getenv("BOT_TOKEN", "7571662710:AAGC7kOJ1qC1VNn_5T159O367yrY4L9Wq9M")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Pensixmusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "jonathannmusicbot")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pakeya2:userbot@cluster0.vva0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Fakeya:KontolXD#123@fakeya.6hfphaj.mongodb.net/?retryWrites=true&w=majority&appName=FakeYa")
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
@@ -52,11 +52,11 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002869486987"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002554488354"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "8107432436").split())
+    map(int, getenv("OWNER_ID", "5870285414").split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -76,10 +76,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/kaizenxpensicodex"
+    "SUPPORT_CHANNEL", "https://t.me/lokontolya"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/kaijensupport"
+    "SUPPORT_GROUP", "https://t.me/ultraroidsupport"
 )  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
